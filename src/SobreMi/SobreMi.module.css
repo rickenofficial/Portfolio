@@ -1,0 +1,110 @@
+.SobreMi{
+    padding-bottom: 8vh ;
+    width: 85%;
+    height: 92vh;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    grid-template-columns: repeat(auto-fill,minmax(22rem, 1fr));
+}
+
+.SobreMi .intro{
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.SobreMi .intro .img {
+    margin: auto;
+}
+
+.SobreMi .intro .img img {
+    width: 250px;
+    height: 250px;
+    border: 4px solid rgba(223, 3, 205, 0);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    /* con esto evite que se salga la imagen del circulo */
+    overflow: hidden;
+    /* con esto queda la imagen dentro del circulo */
+    object-fit: cover;
+    /* con esto centre mi imagen */
+    object-position: top; 
+}
+
+.SobreMi .intro p{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.SobreMi .intro .adornos div{
+  width: 10px;
+  height: 10px;
+  background: linear-gradient( #3f5efb, #fc466b) ;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.SobreMi .intro .adornos{
+    display: flex;
+    gap: 5px;
+}
+
+.SobreMi .edu{
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.SobreMi .edu div{
+    min-width: 310px;
+    border: 2px solid rgb(223, 84, 3);
+    border-radius: 10px;
+    width: 90%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    gap: 8px;
+}
+
+.SobreMi .edu div:hover{
+    background:linear-gradient(180deg, #fba33f, #46e1fc) ;
+    color: antiquewhite;
+}
+
+@media (max-width: 900px){
+
+    .SobreMi{
+        height: auto;
+        padding-bottom:16vh ;
+    }
+    .SobreMi .intro .img img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .SobreMi .intro{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .SobreMi .intro p{
+        width: 290px;
+    }
+
+    
+}
