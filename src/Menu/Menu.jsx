@@ -9,7 +9,7 @@ import sobre from '../assets/sobremi.svg';
 const Menu = () => {
     return(
         <header className={styles.header}>
-            <span className={styles.logo}>LOGO</span>
+            <span className={styles.logo}>Portfolio </span>
 
             <nav className={styles.nav}>
 

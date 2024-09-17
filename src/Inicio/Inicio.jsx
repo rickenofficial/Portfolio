@@ -17,8 +17,7 @@ const Inicio = () => {
 
                 <h2>Ricardo Rodriguez</h2>
                 <div>
-                   <a href="mailto:rickenofficial@gmail.com">GMAIL</a> 
-                   <a href="#">CV</a> 
+                        <a href="mailto:rickenofficial@gmail.com">GMAIL</a> 
                 </div>
 
             </div>
