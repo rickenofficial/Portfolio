@@ -13,7 +13,7 @@ const Menu = () => {
 
             <nav className={styles.nav}>
 
-              <Link to='/Portfolio-React/'><span>H</span>ome</Link>
+              <Link to='/'><span>H</span>ome</Link>
 
               <Link to='/Portfolio-React/proyectos'><span>P</span>rojects</Link>
 
@@ -23,7 +23,7 @@ const Menu = () => {
 
             <nav className={styles.navMobile}>
             
-              <Link to='/Portfolio-React/'>
+              <Link to='/'>
                 <img width='40px' src={home} alt="" />
               </Link>
 

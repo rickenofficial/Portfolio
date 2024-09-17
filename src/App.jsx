@@ -11,7 +11,7 @@ function App() {
     <div>
       <Menu/>
       <Routes>
-        <Route path='/Portfolio-React/' element={<Inicio/>}/>
+        <Route path='/' element={<Inicio/>}/>
         <Route path='/Portfolio-React/proyectos' element={<Proyectos/>}/>
         <Route path='/Portfolio-React/sobremi' element={<SobreMi/>}/>
       </Routes>
