@@ -20,12 +20,13 @@ const Inicio = () => {
         <h2>Ricardo Rodriguez</h2>
         <div>
           <a href="mailto:rickenofficial@gmail.com">GMAIL</a>
-        </div>
-        <div>
           <a href="../assets/Ricardo_Resume (4).pdf" download="../assets/Ricardo_Resume (4).pdf">
             CV
           </a>
         </div>
+        
+          
+        
       </div>
 
       <Animacion />
