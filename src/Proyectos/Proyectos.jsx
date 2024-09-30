@@ -31,7 +31,7 @@ const Proyectos = () => {
         name:'Pigskin Pachanga!',
         descrip:'Pigskin Pachanga! This is a Fantasy Football league and team generator application.',
         tecno:[html,css,js,react],
-        url:'https://github.com/arrozconpollo220/Pigskin-Pachanga',
+        url:'https://github.com/rickenofficial/Pigskin-Pachanga',
       },
       {
         image:[img4],
