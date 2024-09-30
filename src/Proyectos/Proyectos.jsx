@@ -1,11 +1,13 @@
 import styles from '../Proyectos/Proyectos.module.css';
-import img3 from '../assets/img2Project.png'
-import img4 from '../assets/coming_soon.jpg'
-import github from '../assets/github.svg'
-import html from '../assets/html.svg'
-import css from '../assets/css.svg'
-import js from '../assets/js.svg'
-import img2 from '../assets/project 1 img.png'
+import img3 from '../assets/img2Project.png';
+import img4 from '../assets/coming_soon.jpg';
+import github from '../assets/github.svg';
+import html from '../assets/html.svg';
+import css from '../assets/css.svg';
+import js from '../assets/js.svg';
+import img2 from '../assets/project 1 img.png';
+import react from '../assets/react.svg';
+import img5 from '../assets/img3Project.png';
 const Proyectos = () => {
 
     const tarjetas = [
@@ -24,7 +26,13 @@ const Proyectos = () => {
         tecno:[html,css,js,],
         url:'https://github.com/rickenofficial/DeadXFaces',
       },
-
+      {
+        image:[img5],
+        name:'Pigskin Pachanga!',
+        descrip:'Pigskin Pachanga! This is a Fantasy Football league and team generator application.',
+        tecno:[html,css,js,react],
+        url:'https://github.com/arrozconpollo220/Pigskin-Pachanga',
+      },
       {
         image:[img4],
         name:'Coming Soon',
@@ -57,11 +65,12 @@ const Proyectos = () => {
                           <img width='30px' src={card.tecno[0]} alt="" />
                           <img width='30px' src={card.tecno[1]} alt="" />
                           <img width='30px' src={card.tecno[2]} alt="" />
+                          <img width='30px' src={card.tecno[3]} alt="" />
                         </div>
 
                         <div className={styles.github}>
                           <a href={card.url}>
-                            <img width='30px' src={github} alt="" />
+                            <img width='30px' src={github} alt="github icon" />
                           </a>
                         </div>
                       </div>
