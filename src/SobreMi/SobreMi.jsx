@@ -11,8 +11,9 @@ const SobreMi = () => {
           <img src={perfil} alt="Image about me smiling" />
         </div>
         <p>
-          I am a Full Stack Engineer nearing the completion of my certification,
-          with hands-on experience in developing and deploying web applications.
+          I am a Full Stack Engineer with a certification from University of
+          Utah Professional Education Boot Camps, and hands-on experience in
+          developing and deploying web applications.
         </p>
         <div className={styles.adornos}>
           <div></div>
